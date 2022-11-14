@@ -15,7 +15,7 @@ $(document).ready(function() {
 
       total += Number($(el).find('.collect__price').data('price'));
     });
-    $('.collect__total-value').text(total);
+    $('.collect__total-value').text(total.toLocaleString());
   });
 
   if ($('.courses__preview').length > 3) {

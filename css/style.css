@@ -92,8 +92,9 @@ img {
   background-color: #eee;
   border-radius: 15px;
   padding: 15px 20px;
-  width: 300px;
+  width: 400px;
   display: flex;
+  align-items: center;
 }
 .collect__item:not(:first-child) {
   margin-top: 10px;
@@ -107,6 +108,10 @@ img {
 }
 .collect__price {
   font-weight: bold;
+  min-width: 60px;
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
 }
 .collect__total {
   font-weight: bold;
@@ -122,6 +127,9 @@ img {
 .card-title {
   font-weight: bold;
   font-size: 1.2em;
+}
+.card-text {
+  min-height: 72px;
 }
 .courses__preview {
   border: 1px solid #aaa;
