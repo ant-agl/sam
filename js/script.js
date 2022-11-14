@@ -3,7 +3,7 @@ $("body").on("click", 'a[href^="#"]', function (event) {
   let id = $(this).attr('href');
   if (id != '#') {
     let top = $(id).offset().top; 
-    $('body,html').animate({scrollTop: top}, 300);
+    $('body,html').animate({scrollTop: top}, 300, 'linear');
   }
 }); 
 
